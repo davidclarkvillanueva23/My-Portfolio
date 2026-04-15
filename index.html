@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav>
+    <div class="nav-name">MyPortfolio</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HOME / HERO ===== -->
+  <section id="home" class="hero">
+    <p class="greeting">👋 Hello, I'm</p>
+    <h1>Clark</h1>
+    <p class="role">I'm 1st year IT Student | Future Developer</p>
+    <p class="bio">I'm a 1st year IT student who loves building websites and learning new things.</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn-main">See My Work</a>
+      <a href="#contact" class="btn-outline">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-card">
+      <img src="clarky.jfif" alt="Profile Photo" class="profile-pic" />
+      <div class="about-text">
+        <p>I'm currently studying Bachelor of Science in Information Technology at UPANG. I enjoy coding, designing, and solving real-world problems through technology,
+            and I'm really harworking student.
+        </p>
+        <div class="about-info">
+          <span>🎓 University of PANGASINAN</span>
+          <span>📍 PANGASINAN</span>
+          <span>📧 davidclark23@gmail.com</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section skills">
+    <h2 class="section-title">My Skills</h2>
+    <p class="section-sub">Technologies and tools I've been learning.</p>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-emoji">🌐</div>
+        <h3>HTML</h3>
+        <p>Building the structure of web pages.</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-emoji">🎨</div>
+        <h3>CSS</h3>
+        <p>Styling and designing websites.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section projects">
+    <h2 class="section-title">My Projects</h2>
+    <p class="section-sub">Things I've built as a student.</p>
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&q=80" alt="Project 1" />
+        <div class="project-info">
+          <h3>My first Project</h3>
+          <p>A simple to-do list app built using HTML, and CSS.</p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+          </div>
+          <a href="#" class="btn-main small">View Project</a>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact">
+    <h2 class="section-title">Contact Me</h2>
+    <p class="section-sub">Feel free to reach out anytime!</p>
+    <div class="contact-box">
+
+      <div class="contact-details">
+        <div class="contact-item">
+          <span class="icon">📧</span>
+          <div>
+            <strong>Email</strong>
+            <p><a href="mailto:davidclarkvillanueva23@email.com">davidclark23villanueva@email.com</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="icon">📱</span>
+          <div>
+            <strong>Phone</strong>
+            <p>+63 993 0719 724</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="icon">📍</span>
+          <div>
+            <strong>Location</strong>
+            <p>PANGASINAN, Philippines</p>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/davidclarkvillanueva23" target="_blank">GitHub</a>
+          <a href="davidclark23@gmail.com" target="_blank">Gmail</a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Write your message here..."></textarea>
+
+        <button type="submit" class="btn-main">Send Message</button>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>Made with ❤️ by <strong>Clark</strong> · 2026</p>
+  </footer>
+
+</body>
+</html>
